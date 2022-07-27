@@ -1,0 +1,14 @@
+github access token:- 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
+
+git init - to inialize the github repository
+git status - to check the status of the repository that is which files are tracked by the github
+git add - to add any file when then will be tracked by the git
+git commit -m "Comment" - the entire changes have moved to the staging environment and the staging environment is a place where we need to add the data that will be pushed to the github
+git branch - this is used to check all the branch present
+Now how we will know that we have connected to the place where we need to push the data, we will copy the github link where the repository is present eg: https://github.com/Aditya-Rai/gitpractice.git
+
+git remote add origin https://github.com/Aditya-Rai/gitpractice.git
+
+git remote -v - This will show the origin where we have the code and where we need to push the data
+
+git push origin main - Here we push the data to the branch named "main" 
