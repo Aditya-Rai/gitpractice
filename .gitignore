@@ -1,1 +1,17 @@
-mylogs.log
+# mylogs.log 
+#  This will ignore all the files with name "mylogs.log" even if it is present in any directory
+
+
+# /mylogs.log 
+#  This will ignore only this file which is present on the same hierachy, but will not delete file which is present in other directory with the same name
+
+
+*.log 
+# This will ignore all the files with .log extension wherever it is present
+
+# *.txt 
+# This will ignore all the files with .txt extension wherever it is present
+
+ignore_files/
+# Putting / (slash) at the end shows this is a folder and then this command means to ignore all the files present in this folder, thus changing anything inside will not be tracked and will be ignored
+
